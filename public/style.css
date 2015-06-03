@@ -1,0 +1,97 @@
+body {
+	background: #f8f8f8;
+	background:url('images/tiles-02.png');
+	font-family: 'montserrat', arial;
+	}
+	
+.header {
+	font-weight:bold;
+	font-size: 30px;
+	color: #8770cf;
+	text-align:center;
+	margin-left: auto;
+	margin-right:auto;	
+	margin-top: 250px;
+	}
+
+.form {
+	display: block;
+	color: #8770cf;
+	font-size: 150%;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top:40%;
+	left: 36%;
+	margin-top: auto;
+	margin-left: auto;
+	text-align: center;
+	}
+	
+.enter {
+	position:relative;
+	text-align:center;
+	
+	}
+	
+.textbox {
+	border: 2px solid #8770cf;
+	font-size: 50%;
+	}
+	
+
+.btn {
+	left: -15%;
+	font-size: 80%;
+	width: 400px;
+	padding: 15px;
+	position: relative;
+	background-color: #8770cf;
+	color: #FFF;
+	font-weight:bold;
+	text-align:center;
+	border-radius: 25px;
+	border: 2px solid #FFF;
+	}
+	
+.btn:hover {
+	background-color: #FFF;
+	color: #8770cf;
+	cursor: pointer;
+	border: 2px solid #8770cf;
+	border-radius: 25px;
+	}
+
+.arrow{
+	content: url('images/purple_arrow.png');
+	margin-left: 49.2%;
+	margin-right: auto;
+	margin-top: 40px;
+	}
+	
+.anagrams_list {
+	color: #8770cf;
+	overflow: hidden;
+	text-align:center;
+	}
+	
+.anagrams_list:before,
+.anagrams_list:after {
+	background-color: #fff;
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%
+	}
+
+.anagrams_list:before {
+	right: 0.5em;
+	margin-left: 50%;
+	}
+	
+.anagrams_list:after {
+	left: 0.5em;
+	margin-right: 50%;
+	}
+	
