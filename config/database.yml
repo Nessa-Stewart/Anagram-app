@@ -4,7 +4,7 @@ development:
   pool: 5
   host: localhost
   username: postgres
-  password: 123456
+  password: GoblinDog0130
     
 test:
   adapter: postgresql
@@ -12,4 +12,4 @@ test:
   pool: 5
   host: localhost
   username: postgres
-  password: 123456
+  password: GoblinDog0130
