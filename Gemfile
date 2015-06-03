@@ -5,7 +5,7 @@ gem 'activerecord', '4.2.0'
 gem 'faker', '1.4.3'
 gem 'hoe', '3.13'
 gem 'pg', '0.18.1'
-gem 'puma'
+
 gem 'rdoc', '4.0'
 gem 'rspec', '3.2.0'
 
