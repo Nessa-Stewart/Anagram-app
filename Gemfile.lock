@@ -19,6 +19,8 @@ GEM
     diff-lcs (1.2.5)
     faker (1.4.3)
       i18n (~> 0.5)
+    hoe (3.13.0)
+      rake (>= 0.8, < 11.0)
     i18n (0.7.0)
     json (1.8.2)
     minitest (5.5.1)
@@ -30,6 +32,9 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (10.4.2)
+    rake-compiler (0.8.0)
+      rake
+    rdoc (4.0.0)
     rspec (3.2.0)
       rspec-core (~> 3.2.0)
       rspec-expectations (~> 3.2.0)
@@ -60,12 +65,15 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  activerecord
-  faker
-  pg
-  rack
-  rack-test
-  rake
-  rspec
-  sinatra
-  sinatra-activerecord
+  activerecord (= 4.2.0)
+  faker (= 1.4.3)
+  hoe (= 3.13)
+  pg (= 0.18.1)
+  rack (= 1.6.0)
+  rack-test (= 0.6.3)
+  rake (= 10.4.2)
+  rake-compiler (= 0.8)
+  rdoc (= 4.0)
+  rspec (= 3.2.0)
+  sinatra (= 1.4.5)
+  sinatra-activerecord (= 2.0.5)
