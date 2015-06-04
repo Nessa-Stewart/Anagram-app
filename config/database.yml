@@ -1,9 +1,9 @@
 production:
-	url: <%= ENV['DATABASE_URL'] %>
+     url: <%= ENV['DATABASE_URL'] %>
 
 development:
   adapter: postgresql
-  database: numerology_development
+  database: anagram_development
   pool: 5
   host: localhost
   username: postgres
@@ -11,7 +11,7 @@ development:
     
 test:
   adapter: postgresql
-  database: numerology_test
+  database: anagram_test
   pool: 5
   host: localhost
   username: postgres
