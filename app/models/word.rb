@@ -1,5 +1,4 @@
-class Word < ActiveRecord::Base
-
+class Word 
 
 def self.find_anagrams(letters)
 	length = letters.length

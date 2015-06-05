@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 ruby "2.0.0"
 
-gem 'activerecord', '4.2.0'
+gem 'activemodel', '4.2.1'
+gem 'activerecord', '4.2.1'
+gem 'activesupport', '4.2.1'
+gem 'arel', '6.0'
 gem 'faker', '1.4.3'
 gem 'hoe', '3.13'
 gem 'pg', '0.18.1'
