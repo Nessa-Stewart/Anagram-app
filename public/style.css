@@ -3,6 +3,12 @@ body {
 	background:url('images/tiles-02.png');
 	font-family: 'montserrat', arial;
 	}
+.error {
+	font-size: 120%;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
 	
 .header {
 	font-weight:bold;
@@ -94,4 +100,5 @@ body {
 	left: 0.5em;
 	margin-right: 50%;
 	}
-	
+
+
