@@ -11,29 +11,9 @@ get '/anagrams/:word' do
  
 post '/' do
   @word = params[:word]
-  begin 
-    valid_input(@word)
-	distinct_letters(@word)
     redirect "/anagrams/#{@word}"
-  rescue Exception => error
-    @error = error.message
-    erb :index
-
-  end
+  
 end
  
  
 
-def distinct_letters(input)
-	letter_array = input.chars
-	unique_letters = letter_array.uniq
-	if unique_letters.length < letter_array.length
-		raise Exception.new("Word must have no repeating letters.")
-	end
-end
-
-def valid_input(input)
-	if input.length > 3
-		raise Exception.new("Word must be less than or equal to 3 characters.")
-  end
-end
